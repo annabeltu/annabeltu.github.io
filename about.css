@@ -1,0 +1,101 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #ffe2e6; 
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family: 'Arial', sans-serif;
+  color: #1261A0;
+  text-align: center;
+  font-size: 60px;
+}
+
+h3{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: 'Arial', sans-serif;
+  color: #cf1578;
+  text-align: left;
+  font-size: 36px;
+}
+
+p {
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+
+ *{
+   margin: 0px;
+   padding: 0px; 
+  
+ }
+nav{
+  padding:1em;
+}
+
+ul {
+  list-style:none;
+  background-color:lavender;
+  overflow: hidden;
+  padding:1em;
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+  font-weight: 600
+}
+
+li {
+  display: inline;
+  
+}
+
+li a {
+  text-decoration:none;
+  color:hotpink;
+  font-size 1.3em;
+  padding: 1em;
+
+  
+}
+li a:hover {
+  background-color: #lavender;
+  text-decoration:underline
+}
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+
+.flexboxContainer {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: nowrap;
+}
+
+.flexItem {
+  flex-basis: 90%;
+  text-align: center;
+}
+
+
+img {
+  width: 60%;
+}
+
+@media screen and (max-width: 600px;) {
+  .flex-container {
+    flex-wrap: wrap;
+    h2{
+      font-size: 12px;
+    }
+  }
